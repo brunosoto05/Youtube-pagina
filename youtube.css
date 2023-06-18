@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    color: #606060;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+nav div{
+    display: flex;
+}
+
+nav i{
+    font-size: 20px;
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+}
+
+.barra{
+    display: flex;
+    height: 35px;
+}
+
+.barra input{
+    width: 500px;
+    border-radius: 30px 0px 0px 30px;
+    border-width: 0.5px;
+    border-color: rgba(0, 0, 0, 0.142);
+    padding: 10px;
+    font-size: 17px;
+    padding-left: 14px;
+    cursor: auto;
+}
+
+input:focus{
+    outline: none;
+}
+
+.lupa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 30px 30px 0px;
+    border-width: 0.5px;
+    border-color: rgba(0, 0, 0, 0.142);
+    width: 60px;
+}
+
+.lupa i{
+    font-size: 15px;
+}
+
+.notis{
+    display: flex;
+    gap: 20px;
+}
+
+.completo{
+    display: grid;
+    grid-template-columns: 6% 94%;
+}
+
+.columna_logos{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.columna_logos div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.columna_logos p{
+    font-size: 10px;
+    color: #0F0F0F;
+}
+
+.full_videos{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.sugerencias{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.sugerencias button{
+    display: flex;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    background-color: rgb(242, 241, 241);
+    border: 0px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.sugerencias button:hover{
+    background-color: rgb(224, 223, 223);
+}
+
+.fila{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.fila2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.columna{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.columna img{
+    width: 320px;
+    border-radius: 8px;
+}
+
+.perfil{
+    display: flex;
+    gap: 10px;
+}
+
+.perfil img{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+
+h2{
+    font-size: 16px;
+}
+
+.texto p{
+    font-size: 14px;
+}
